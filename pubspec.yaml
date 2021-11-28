@@ -16,6 +16,7 @@ dependencies:
   http: ^0.13.4
   sqflite: ^2.0.0+4
   path: ^1.8.0
+  cached_network_image: ^3.1.0+1
 
 dev_dependencies:
   flutter_test:
