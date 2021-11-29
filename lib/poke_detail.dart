@@ -35,10 +35,13 @@ class PokeDetail extends StatelessWidget {
                 children: [
                   Container(
                     padding: const EdgeInsets.all(32),
-                    child: CachedNetworkImage(
-                      imageUrl: poke.imageUrl,
-                      height: 100,
-                      width: 100,
+                    child: Hero(
+                      tag: poke.name,
+                      child: CachedNetworkImage(
+                        imageUrl: poke.imageUrl,
+                        height: 200,
+                        width: 200,
+                      ),
                     ),
                   ),
                   Container(
